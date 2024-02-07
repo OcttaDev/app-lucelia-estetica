@@ -19,7 +19,7 @@ export default function Home() {
           alt="brand"
           className="w-48 h-48 absolute top-60"
         />
-        <div className="flex items-center gap-5 absolute top-[390px] z-[99]">
+        <div className="flex items-center gap-5 absolute top-[490px] z-[99]">
           <a
             href="tel:+5519984471084"
             className="flex justify-center items-center w-16 h-16 bg-[#ad7d59] rounded-full"
@@ -54,7 +54,7 @@ export default function Home() {
         <img
           src="/action.png"
           alt="action"
-          className="w-40 h-40 absolute top-[400px]"
+          className="w-40 h-40 absolute top-[500px]"
         />
       </div>
       <img
