@@ -8,16 +8,20 @@ export default function Home() {
   return (
     <div className="h-[100%] w-full bg-[url('/background.png')] bg-contain  bg-[10%]">
       <div className="w-full h-full flex flex-col items-center">
-        <img src="/vector.png" alt="vector" className="w-56 h-56" />
+        <img
+          src="/vector.png"
+          alt="vector"
+          className="w-56 h-56 absolute top-20"
+        />
         <img
           src="/brand.png"
           alt="brand"
-          className="w-96 h-96 absolute top-10"
+          className="w-96 h-96 absolute top-32"
         />
         <img
           src="/description.png"
           alt="brand"
-          className="w-48 h-48 absolute top-60"
+          className="w-48 h-48 absolute top-80"
         />
         <div className="flex items-center gap-5 absolute top-[490px] z-[99]">
           <a
