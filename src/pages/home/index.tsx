@@ -2,6 +2,7 @@ import { FiPhone } from "react-icons/fi";
 import { MdWhatsapp } from "react-icons/md";
 import { AiOutlineMail } from "react-icons/ai";
 import { GrMap } from "react-icons/gr";
+import { IoLogoInstagram } from "react-icons/io5";
 
 export default function Home() {
   return (
@@ -30,6 +31,12 @@ export default function Home() {
             className="flex justify-center items-center w-16 h-16 bg-[#ad7d59] rounded-full"
           >
             <MdWhatsapp size={30} color="#ffff" />
+          </a>
+          <a
+            href="https://www.instagram.com/lucelia_biomedicinaestetica?igsh=ZWVpN3Z4ZWg1ZXI2"
+            className="flex justify-center items-center w-16 h-16 bg-[#ad7d59] rounded-full"
+          >
+            <IoLogoInstagram size={30} color="#ffff" />
           </a>
           <a
             href="mailto:luceliagaldinobiomed@gmail.com?subject=Quero%20fazer%20uma%20consulta&body=Gostaria%20de%20agendar%20uma%20consulta%20com%20a%20Dra%20Lucelia%20Galdino"
