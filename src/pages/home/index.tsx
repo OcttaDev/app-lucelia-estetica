@@ -16,7 +16,7 @@ export default function Home() {
         <img
           src="/description.png"
           alt="brand"
-          className="w-40 h-40 absolute top-64"
+          className="w-48 h-48 absolute top-60"
         />
         <div className="flex items-center gap-5 absolute top-[380px] z-[99]">
           <a
